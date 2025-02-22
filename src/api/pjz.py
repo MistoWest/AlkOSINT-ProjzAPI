@@ -4,7 +4,7 @@ import csv
 
 class OSINTProjz:
     def __init__(self):
-        self.api = "https://www.projz.com/api/"
+        self.api = "https://clover.space/api/"
 
     def return_objectId(self, link):
         req = requests.post(self.api + "f/v1/parse-share-link", json={
